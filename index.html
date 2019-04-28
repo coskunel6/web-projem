@@ -24,27 +24,124 @@ li {
 li a {
     display: block;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 20px 18px;
     text-decoration: none;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
 }
 li a:hover {
     background-color: #FF4500;
+    transform: scale(1.2);
+        -webkit-transform: scale(1.2);
 }
+   div.transbox {
+    position: relative;
+    left: 10px;
+    right: 0px;
+    top:10px;
+      width:460px;
+      height:260px;
+      margin:30px 50px;
+      background-color: #B0E0E6;
+      border:1px solid black;
+      opacity:0.5;
+      filter:alpha(opacity=0.2);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+
+   }
+          
+    div.transbox:hover{
+      background-color:     #ff6600;
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+    }
+       .ikinci {
+    position: relative;
+    left: 10px;
+    right: 0px;
+    top:0px;
+      width:460px;
+      height:260px;
+      margin:30px 50px;
+      background-color: #B0E0E6;
+      border:1px solid black;
+      opacity:0.5;
+      filter:alpha(opacity=0.2);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+   }
+          
+    .ikinci:hover{
+      background-color:   #98FB98;
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+
+    }
+
+    .ücüncü{
+          position: absolute;
+    left: 760px;
+    right: 50px;
+    top: 100px;
+      width:660px;
+      height:460px;
+          transition: all .5s ease-in-out;
+    cursor: pointer;
+    }
+        .ücüncü:hover{
+        transform: scale(1.3);
+        -webkit-transform: scale(1.3);
 
 </style>
 </head> 
+
 <nav>
 <ul>
   <li><a class="active" href="#anasayfa">Ana Sayfa</a></li>
   <li><a href="En'ler.html">En'ler</a></li>
   <li><a href="Satın Al.html">Satın Al</a></li>
-  <li><a href="Yeni Cıkanlar.html">Yeni Çıkanlar</a></li>
+  <li><a href="YeniCikanlar.html">Yeni Çıkanlar</a></li>
   <li><a href="Haberler.html">Haberler</a></li>
-</ul>
+<a href="https://www.instagram.com" target="_blank"><img src="insta.png" title="İnstagram"/></a> 
+<a href="https://www.facebook.com" target="_blank"><img src="facebook.png" title="Facebook"/></a>
+<a href="https://www.twitter.com" target="_blank"><img src="twitter.png" title="Twitter"/></a>
 </nav>
-   <audio controls id="ses1" widht="420">
-    <source src="Son Feci Bisiklet - Bikinisinde Astronomi.mp3">
-    </audio>
+
+   <div class="transbox">
+  
+<h1 align="center">  <font face="fantasy" size="6" color="#2F4F4F" > TOP 3  </font></h1>
+<a href="https://youtu.be/4qo0rBaM4ZY" target="_blank" link="black" alink="green" >
+ <font face="fantasy" size="5" color=" #2F4F4F"> <b> 1. SON FECİ BİSİKLET - BİKİNİSİNDE ASTRONOMİ <b> </font> </a><br>
+ <br><a href="https://youtu.be/apTreCYsXFM" target="_blank" link="black" alink="green" >
+ <font face="fantasy" size="5" color=" #2F4F4F"> 2. BÜYÜK EV ABLUKADA - ARAYAN BULUR  </font></a>
+ <br>
+ <br><a href="https://youtu.be/fR2JHaCDrMw" target="_blank" link="black" alink="green" >
+ <font face="fantasy" size="5" color=" #2F4F4F"> 3. YÜZYÜZEYKEN KONUŞURUZ - SANDAL  </font> </a>
+
+   </div>
+
+   <div class="ikinci">
+
+    <h1 align="center">  <font face="fantasy" size="6" color="#2F4F4F" > SON KONSERLER </font></h1>
+    <font face="fantasy" size="5" color=" #2F4F4F"> <b> SON FECİ BİSİKLET  -  6 MAYIS HAYAL KAHVESİ<b> </font> <br>
+      <br>
+       <font face="fantasy" size="5" color=" #2F4F4F"> BÜYÜK EV ABLUKADA - 12 MAYIS BOSTANCI GÖSTERİ M.  </font>
+       <br>
+       <br>
+       <font face="fantasy" size="5" color=" #2F4F4F"> 3. YÜZYÜZEYKEN KONUŞURUZ - 13 MAYIS IF PERFORMANCE HALL  </font>
+</div>
+
+<div class="ücüncü"> 
+
+<video width="660" height="460" 
+controls autoplay src="video1.mp4">
+</video>
+
+</div>
+
+
+
 </body>
 </html>

@@ -6,38 +6,12 @@
   <meta charset="utf-8">
   <title> YENİ MÜZİK </title>
 <style type="text/css">
-#aramaKutusu{
-    width: 238px;
-    height: 34px;
-    overflow: hidden;
-    background: url(arama_kutusu.png) no-repeat
-}
- 
-#aramaKutusu input{
-    width: 193px;
-    height: 19px;
-    margin: 7px 0 0 7px;
-    padding: 0;
-    float: left;
-    border: none;
-    background: #eee;
-    font: normal 12px Arial
-}
- 
-#aramaKutusu button{
-    width: 25px;
-    height: 25px;
-    margin: 4px 9px 0 2px;
-    float: right;
-    text-indent: -9999px;
-    border: none;
-    background: url(btn.png) no-repeat;
-    cursor: pointer
-}
 body
 {
-  background-image: url("sfb.jpg");
+  background-image: url("yy.jpg");
+
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -54,10 +28,61 @@ li a {
     text-align: center;
     padding: 20px 18px;
     text-decoration: none;
+transition: all .5s ease-in-out;
+    cursor: pointer;
 }
 li a:hover {
     background-color: #FF4500;
+    transform: scale(1.2);
+        -webkit-transform: scale(1.2);
 }
+
+   div.transbox {
+    position: relative;
+    left: 10px;
+    right: 0px;
+    top:10px;
+      width:560px;
+      height:660px;
+      margin:30px 50px;
+      background-color: #B0E0E6;
+      border:1px solid black;
+      opacity:0.5;
+      filter:alpha(opacity=0.2);
+                transition: all .5s ease-in-out;
+    cursor: pointer;
+
+
+   }
+          
+    div.transbox:hover{
+      background-color:     #ff6600;
+                    transform: translate(50px);
+        -webkit-transform: translate(50px);
+    }
+       .ikinci {
+    position: absolute;
+    left: 800px;
+    right: 0px;
+    top:77px;
+      width:560px;
+      height:660px;
+      margin:30px 50px;
+      background-color: #B0E0E6;
+      border:1px solid black;
+      opacity:0.5;
+      filter:alpha(opacity=0.2);
+          transition: all .5s ease-in-out;
+    cursor: pointer;
+
+   }
+          
+    .ikinci:hover{
+      background-color:   #98FB98;
+              transform: translate(50px);
+        -webkit-transform: translate(50px);
+    }
+
 </style>
 </head> 
 <nav>
@@ -65,12 +90,21 @@ li a:hover {
   <li><a href="index.html">Ana Sayfa</a></li>
   <li><a class="active" href="#En'ler">En'ler</a></li>
   <li><a href="Satın Al.html">Satın Al</a></li>
-  <li><a href="Yeni Çıkanlar.html">Yeni Çıkanlar</a></li>
+  <li><a href="YeniCikanlar.html">Yeni Çıkanlar</a></li>
   <li><a href="Haberler.html">Haberler</a></li>
+  <a href="https://www.instagram.com" target="_blank"><img src="insta.png" title="İnstagram"/></a> 
+<a href="https://www.facebook.com" target="_blank"><img src="facebook.png" title="Facebook"/></a>
+<a href="https://www.twitter.com" target="_blank"><img src="twitter.png" title="Twitter"/></a>
 </ul>
 </nav>
+   <div class="transbox">
 
 
+   </div>
+
+   <div class="ikinci">
+
+</div>
 
 </body>
 </html>
